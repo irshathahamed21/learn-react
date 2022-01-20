@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+ .restaurant-data {
+   display:grid;
+   grid-template-columns: 30% 30% 30%;
+   gap:2%;
+   width:1200px;
+   margin:auto;
+ }
+ .restaurant-data img {
+   width:50%;
+   height:50%;
+ }
