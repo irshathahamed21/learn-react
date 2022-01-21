@@ -1,12 +1,15 @@
 
 import './App.css';
+import { Counter } from './components/counter/Counter';
+import { Counter2 } from './components/counter/Counter';
 import {ProductsData} from "./components/ProductsData";
-import { Hooks } from './components/useState/Hooks';
+
 
 function App() {
   return (
     <div className="App">
-      <Hooks/>
+     <Counter/>
+     <Counter2/>
      {/* <ProductsData /> */}
     </div>
   );
